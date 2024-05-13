@@ -8,7 +8,6 @@ def main():
     char_list = get_list_dict(char_dict)
     ordered_list = get_sorted_list(char_list)
     report = create_report(file_path, num_words, ordered_list)
-    #print(ordered_list)
     print(report)
 
 
