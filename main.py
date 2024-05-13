@@ -57,6 +57,7 @@ def create_report(file_path, num_words, ordered_list):
             nice_report3 += (f"\nThe letter '{key[0]}' is present {value[0]} time")
     report = nice_report1 + nice_report2 + nice_report3
     return report
+
 main()
 
 
